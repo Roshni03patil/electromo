@@ -1,0 +1,29 @@
+.container{
+    width: 80%;
+    margin :auto;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+.d-flex{
+    display:flex
+}
+
+.items-center{
+    align-items: center;
+}
+.justify-end{
+    justify-content: end;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-15{
+    gap:15px;
+}
