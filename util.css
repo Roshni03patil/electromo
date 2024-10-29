@@ -1,29 +1,41 @@
 .container{
-    width: 80%;
-    margin :auto;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
+    width:80%;
+    margin:auto;
+
 }
 
 .d-flex{
-    display:flex
+    display: flex;
 }
 
 .items-center{
-    align-items: center;
+    align-items:center;
+
 }
+
 .justify-end{
     justify-content: end;
 }
 
-.text-end{
-    text-align: end;
+.justify-between{
+    justify-content: space-between;
 }
 
 .gap-10{
     gap: 10px;
 }
 
-.gap-15{
-    gap:15px;
+.text-end{
+    text-align: end;
+}
+
+.r_search{
+    width:50%;
+    
+}
+
+.r_search input{
+    flex:1;
+    outline: none;
+    padding:5px;
 }
